@@ -1,0 +1,22 @@
+{
+    "name": "code-pros/boundaries",
+    "description": "Architectural boundaries",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "John Eckhardt",
+            "email": "john@codepros.biz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    },
+    "require-dev": {
+        "mamuz/php-dependency-analysis": "*"
+    }
+}
